@@ -1,1 +1,1 @@
-# django-studybuddy
+# django-studybuddy  
