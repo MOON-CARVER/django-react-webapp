@@ -12,10 +12,13 @@ This project is focused on learning and applying the **Django** framework to bui
 
 ## 👥 Team Members
 
-- **Chander Thakur**
+- **[@MOON-CARVER](https://github.com/MOON-CARVER)**
 - **Abhinav Kaushik**
 - **Aayush Angirous**
 - **Akash Thapa**
 - **Newjen Prajapati**
 
 ---
+
+
+
