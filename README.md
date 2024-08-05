@@ -1,4 +1,3 @@
-Sure! Here’s the updated `README.md` content with a structure that's more typical for Markdown files and includes colorful icons:
 
 ---
 
