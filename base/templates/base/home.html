@@ -26,6 +26,8 @@
     
     <a href={% url 'create-room' %}>Create Croom</a>
     <div>
+
+
       {% for room in rooms %}
       <div>
         <a href="{%url 'update-room' room.id %}"> Edit</a>
@@ -36,6 +38,7 @@
         <small>{{room.topic.name}}</small>
         <hr />
       </div>
+      
       {% endfor %}
     </div>
   </div>
