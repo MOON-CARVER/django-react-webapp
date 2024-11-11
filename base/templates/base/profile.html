@@ -1,9 +1,27 @@
 {% extends "main.html" %}
 
 {% block content %}
+<style>
+    .profile-container{
+        grid-template-columns:1fr 2fr 1fr ; 
+    }
+</style>
 <h1>{{user.username}}</h1>
 
+<div class = "profile-container">
+    <div>
 
+    </div>
+
+    <div>
+        {% include "base/feed_component.html" %}
+    </div>
+
+    <div>
+
+    </div>
+
+</div>
 
 
 
