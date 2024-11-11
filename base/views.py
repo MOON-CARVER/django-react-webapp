@@ -78,7 +78,7 @@ def home(request):
 
     topics = Topic.objects.all()
     room_count = rooms.count()
-    room_messages = Message.objects.all()
+    room_messages = Message.objects.filter(Q(room__topic__name__icontains=q))
     
     
     
@@ -106,8 +106,12 @@ def room(request,pk):
     return render(request,'base/room.html',context)
 
 
-def developers(request):
-    return render(request,'developers.html')
+
+
+
+
+# def developers(request):
+#     return render(request,'developers.html')
 
 #! a decorator to require login,redirects to login page
 @login_required(login_url = 'login')
