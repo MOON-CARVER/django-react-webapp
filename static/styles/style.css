@@ -852,48 +852,86 @@ a {
 /*==============================
 =>  Profile
 ================================*/
-.profile {
-  margin-bottom: 3rem;
+/* Ensure the container is centered */
+.profile-page .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the max-width as needed */
+  padding: 0 20px; /* Add padding to prevent content from touching the edges */
 }
 
+/* Ensure the profile section is centered */
+.profile-page .profile {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+/* Ensure the room list is centered */
+.profile-page .roomList {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+/* Additional styles for profile page */
 .profile__avatar {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .profile__info {
   text-align: center;
-}
-
-.profile__info h3 {
-  font-size: 2rem;
-  color: var(--color-light);
-  font-weight: 400;
-}
-
-.profile__info p {
-  color: var(--color-main);
-  font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
 .profile__about {
-  margin-top: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+/* Ensure the container is centered */
+.profile-page .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the max-width as needed */
+  padding: 0 20px; /* Add padding to prevent content from touching the edges */
 }
 
-.profile__about h3 {
-  text-transform: uppercase;
-  color: var(--color-dark-light);
-  margin-bottom: 0.5rem;
+/* Ensure the profile section is centered */
+.profile-page .profile {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
 }
 
-.profile-page .roomList__header {
-  margin-bottom: 1.5rem;
+/* Ensure the room list is centered */
+.profile-page .roomList {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
 }
 
-.profile-page .roomList__header h2 {
-  color: var(--color-dark-light);
+/* Additional styles for profile page */
+.profile__avatar {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
+.profile__info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile__about {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
 /*==============================
 =>  Room
 ================================*/
