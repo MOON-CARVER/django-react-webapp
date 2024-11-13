@@ -1,1 +1,1 @@
- web: gunicorn cubuddy.wsgi
+ web: gunicorn cubudd.wsgi --log-file - 
